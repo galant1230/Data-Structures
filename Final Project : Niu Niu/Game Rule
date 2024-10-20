@@ -1,0 +1,39 @@
+「妞妞」（Niu Niu）是一款受歡迎的 紙牌遊戲，尤其在亞洲地區廣為流行。它的規則簡單且充滿策略性，適合多人遊玩。以下是基本規則：
+
+遊戲規則：
+1.牌組：
+  通常使用一副 撲克牌（不含大小王），總共 52 張牌。
+2.玩家數量：
+  2 至 6 人，每人會分得 5 張牌。
+3.遊戲目標：
+  玩家需要將 5 張牌分為 兩組：
+  第一組：3 張牌的總和為 10 或 10 的倍數。
+  第二組：剩餘 2 張牌的總點數相加，最後取個位數作為該玩家的「點數」。點數越高者勝，如果點數相同，則比牌的大小或花色。
+4.點數計算：
+  K、Q、J 和 10 算作 0 點。
+  其餘牌按其牌面數值計算（例如 7 算 7 點，2 算 2 點）。
+  取兩張剩餘牌的總和的個位數作為最終點數，例如：8 + 9 = 17，則點數為 7。
+5.特殊牌型：
+  妞妞 (Niu Niu)：若 3 張牌的總和為 10 的倍數，且另外 2 張牌的總和為 10 的倍數，則稱為「妞妞」，為最高牌型。
+  無牛 (No Niu)：如果 3 張牌無法湊成 10 的倍數，即為「無牛」。
+-----------------------------------------------------------------------------------------------------------
+English Version:
+"Niu Niu" is a popular card game enjoyed widely across Asia. It features simple rules yet offers strategic gameplay, making it suitable for multiple players. Below are the basic rules:
+
+Game Rules:
+1.Deck:
+  The game uses a standard 52-card deck (excluding jokers).
+2.Number of Players:
+  Typically, 2 to 6 players. Each player is dealt 5 cards.
+3.Objective:
+  Players must divide their 5 cards into two groups:
+  First Group: A set of 3 cards whose sum is 10 or a multiple of 10.
+  Second Group: The remaining 2 cards, where the ones place of their sum is the final "point" for the player.The player with the highest point wins. If points are tied, card value or suit may serve as a tiebreaker.
+4.Point Calculation:
+  K, Q, J, and 10 each count as 0 points.
+  Other cards count as their face value (e.g., 7 = 7 points, 2 = 2 points).
+  The sum of the remaining two cards is taken modulo 10 (only the ones place matters).
+  Example: If the sum is 8 + 9 = 17, the point is 7.
+5.Special Hands:
+  Niu Niu: If the first 3 cards sum to a multiple of 10 and the remaining 2 cards also sum to a multiple of 10, the hand is called Niu Niu and is the highest-ranking hand.
+  No Niu: If the first 3 cards cannot sum to a multiple of 10, the hand is called No Niu.
