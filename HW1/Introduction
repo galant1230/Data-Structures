@@ -1,1 +1,39 @@
+Part 1: Fixed Shift Encoding/Decoding
+Encoding:
+
+Each letter is shifted two positions to the left in the alphabet (circular shift).
+Example: A → C, B → D, Y → A, Z → B
+Input is provided with a "+" symbol indicating encoding.
+Decoding:
+
+Each letter is shifted two positions to the right in the alphabet (circular shift).
+Example: C → A, D → B, A → Y, B → Z
+Input starts with a "- symbol", meaning the message needs to be decoded.
+Example:
+Input: +FIRE
+
+Output: HKTG
+
+Input: -UVQR
+
+Output: STOP
+---------------------------------------------------------------------------------------------------------------
+Part 2: Custom Shift Encoding/Decoding with Variable Shifts
+Encoding:
+
+Each letter in the message is shifted according to a list of provided shifts for each position.
+Example: With the shift key [2, 6, 3, 1], the letters will be shifted 2, 6, 3, and 1 positions respectively.
+A "+" sign at the start indicates encoding with the provided shifts.
+Decoding:
+
+When decoding, each letter is shifted backward according to the corresponding shift key.
+A "- sign" at the start indicates decoding.
+Example:
+Input: +FIRE 2 6 3 1
+
+Output: HOUF
+
+Input: -UZRQ 2 6 3 1
+
+Output: STOP
 
