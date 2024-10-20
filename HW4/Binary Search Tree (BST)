@@ -1,0 +1,5 @@
+This assignment implements a Binary Search Tree (BST) using C++. Its main functionalities include:
+
+Building the Binary Search Tree: Inserting input data sequentially into the BST following its properties.
+Deleting Nodes: If duplicate data is found during insertion, the corresponding node is deleted from the tree.
+Outputting Node Data: Displaying the data of all nodes in the tree, along with each node’s left child and right child in sequence.
