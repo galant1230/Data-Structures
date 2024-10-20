@@ -1,0 +1,5 @@
+Consider an n*n chessboard (n > 5). The first below figure shows the possible steps of the knight (represented by circles). The knight has to visit all the blocks. For a series of steps, one can record the number of steps for each block using a table matrix as shown in the second figure. Please write a program to show the steps of the knight.
+Note:
+
+There exists multiple steps but you only need to show one of them.
+You can use the stack to solve this problem.
